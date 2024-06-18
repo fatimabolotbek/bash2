@@ -1,0 +1,19 @@
+check if we have git
+    if we don't:
+        install git
+    if we do: 
+        continue
+
+check if we are in a git repository
+    if we are:
+        check if # of args are 0:
+            promt for path to push
+            promt for commit message
+
+        if # of args are 2:
+                use first arg as path
+                use second arg as commit message
+                
+        if # of args are 1:
+            use first argument as commit message
+        
